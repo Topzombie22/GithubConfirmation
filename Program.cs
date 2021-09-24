@@ -8,6 +8,9 @@ namespace GithubConfirmation
         {
             Console.WriteLine("Hello World!");
             Console.ReadKey();
+
+            Console.WriteLine("Are you allowed to play?");
+            Console.ReadKey();
         }
     }
 }
