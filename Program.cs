@@ -37,7 +37,19 @@ namespace GithubConfirmation
             Console.WriteLine("Are you allowed to play?");
             Console.ReadKey();
 
+            Console.Clear();
 
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("--------------------------------------");
+            Console.WriteLine("|" + "Class:" + Role + "                        |");
+            Console.WriteLine("|" + "Race:" + Race + "                          |");
+            Console.WriteLine("|" + "Level:" + level + "  " + "Exp:" + exp + "                      |");
+            Console.WriteLine("|" + "Current Health:" + health + "  " + "Current Lives:" + lives + "   |");
+            Console.WriteLine("--------------------------------------");
+
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey(true);
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
